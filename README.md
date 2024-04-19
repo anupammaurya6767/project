@@ -7,33 +7,33 @@
 The project follows a modular structure to ensure scalability and maintainability:
 
 ```
-ai_security_tool/</br>
-│</br>
-├───docs/                  </br>
-│   └───user_manual.md     </br>
-│   └───developer_guide.md </br>
-│   └───...                </br>
-│</br>
-├───tests/                 </br>
-│</br>
-├───ai_security/           </br>
-│   ├───__init__.py        </br>
-│   ├───scanner.py         </br>
-│   ├───reporting.py       </br>
-│   ├───vulnerabilities/   </br>
-│   │   ├───__init__.py    </br>
-│   │   ├───xss.py         </br>
-│   │   ├───sql_injection.py</br>
-│   │   ├───...            </br>
-│   └───plugins/           </br>
-│       ├───__init__.py    </br>
-│       ├───website.py     </br>
-│       ├───app.py         </br>
-│       ├───...            </br>
-│</br>
-├───setup.py               </br>
-├───requirements.txt       </br>
-└───README.md              </br>
+ai_security_tool/
+│
+├───📚 docs/
+│ └───📝 user_manual.md
+│ └───📘 developer_guide.md
+│ └───...
+│
+├───🧪 tests/
+│
+├───🔒 ai_security/
+│ ├───🔧 init.py
+│ ├───🔍 scanner.py
+│ ├───📊 reporting.py
+│ ├───🔓 vulnerabilities/
+│ │ ├───🔧 init.py
+│ │ ├───🔍 xss.py
+│ │ ├───🔍 sql_injection.py
+│ │ ├───...
+│ └───🔌 plugins/
+│ ├───🔧 init.py
+│ ├───🌐 website.py
+│ ├───📱 app.py
+│ ├───...
+│
+├───📦 setup.py
+├───📋 requirements.txt
+└───📄 README.md           
 ```
 
 ## To-Do List
