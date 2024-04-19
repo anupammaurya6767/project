@@ -9,31 +9,40 @@ The project follows a modular structure to ensure scalability and maintainabilit
 ```
 ai_security_tool/
 │
-├───📚 docs/
-│ └───📝 user_manual.md
-│ └───📘 developer_guide.md
-│ └───...
+├───📁 logs/                   # Folder for log files
 │
-├───🧪 tests/
+├───📁 utils/                  # Folder for utility modules
+│   ├───🔧 __init__.py
+│   ├───📝 logger.py           # Module for logging functionality
+│   └───🚨 errors.py           # Module for error handling
 │
-├───🔒 ai_security/
-│ ├───🔧 init.py
-│ ├───🔍 scanner.py
-│ ├───📊 reporting.py
-│ ├───🔓 vulnerabilities/
-│ │ ├───🔧 init.py
-│ │ ├───🔍 xss.py
-│ │ ├───🔍 sql_injection.py
-│ │ ├───...
-│ └───🔌 plugins/
-│ ├───🔧 init.py
-│ ├───🌐 website.py
-│ ├───📱 app.py
-│ ├───...
+├───📁 docs/                  
+│   └───📝 user_manual.md     
+│   └───📘 developer_guide.md 
+│   └───...                
 │
-├───📦 setup.py
-├───📋 requirements.txt
-└───📄 README.md           
+├───🧪 tests/                 
+│
+├───🔒 ai_security/           
+│   ├───🔧 __init__.py        
+│   ├───📄 ai_security.py     # Main class for initiating scans
+│   ├───🔍 scanner.py         
+│   ├───📊 reporting.py       
+│   ├───🔓 vulnerabilities/   
+│   │   ├───🔧 __init__.py    
+│   │   ├───🔍 xss.py         
+│   │   ├───🔍 sql_injection.py
+│   │   ├───...            
+│   └───🔌 plugins/           
+│       ├───🔧 __init__.py    
+│       ├───🌐 website.py     
+│       ├───📱 app.py         
+│       ├───...            
+│
+├───📦 setup.py               
+├───📋 requirements.txt       
+└───📄 README.md
+     
 ```
 
 ## To-Do List
