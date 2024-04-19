@@ -78,3 +78,52 @@ Here's a list of tasks for developers to complete the project:
 
 10. **Release and Share**:
     - Release the tool as a PyPI package and share it with the community.
+
+## Available Tests and Methods for Penetration Testing a Website
+
+Penetration testing (pen testing) is a crucial process for identifying and mitigating security vulnerabilities in a website. Below is a list of common tests and methods used for pen testing a website along with their uses:
+
+1. **Information Gathering**:
+   - *Whois Lookup*: Obtain domain registration information.
+   - *DNS Enumeration*: Discover DNS records and subdomains.
+   - *Web Server Identification*: Identify the web server software and version.
+   - *Spidering/Crawling*: Map out the website's structure and endpoints.
+
+2. **Configuration Management**:
+   - *SSL/TLS Configuration*: Check for proper SSL/TLS configuration to prevent man-in-the-middle attacks.
+   - *HTTP Headers Analysis*: Verify security-related headers (e.g., Content Security Policy, X-Frame-Options, etc.).
+   - *File and Directory Permissions*: Check for misconfigured file and directory permissions that may expose sensitive data.
+
+3. **Vulnerability Assessment**:
+   - *SQL Injection (SQLi)*: Test for SQL injection vulnerabilities by injecting SQL code into input fields.
+   - *Cross-Site Scripting (XSS)*: Test for XSS vulnerabilities by injecting malicious scripts into web pages.
+   - *Cross-Site Request Forgery (CSRF)*: Test for CSRF vulnerabilities by forging requests from a trusted user.
+   - *Security Misconfiguration*: Identify common misconfigurations that could lead to security vulnerabilities.
+   - *Sensitive Data Exposure*: Check for exposure of sensitive information like passwords or credit card numbers.
+   - *Authentication Bypass*: Test for weaknesses in authentication mechanisms that could allow unauthorized access.
+   - *Session Management*: Assess the security of session management mechanisms and tokens.
+   - *File Inclusion*: Test for file inclusion vulnerabilities (e.g., Local File Inclusion, Remote File Inclusion).
+   - *Server-Side Request Forgery (SSRF)*: Test for SSRF vulnerabilities by tricking the server into making unauthorized requests.
+   - *XML External Entity (XXE)*: Test for XXE vulnerabilities by exploiting XML parsing functionality.
+
+4. **Client-Side Testing**:
+   - *Content Security Policy (CSP) Bypass*: Test for bypasses in CSP rules that could allow execution of malicious scripts.
+   - *Client-Side Injection*: Test for injection vulnerabilities in client-side technologies like JavaScript.
+   - *Browser Security*: Assess browser security settings and potential vulnerabilities.
+   - *Cross-Origin Resource Sharing (CORS)*: Test for misconfigurations in CORS policies that could lead to data exposure.
+
+5. **Access Control Testing**:
+   - *Authorization Bypass*: Test for weaknesses in authorization mechanisms that could allow unauthorized access to restricted resources.
+   - *Privilege Escalation*: Test for ways to elevate privileges beyond what is intended.
+
+6. **Business Logic Testing**:
+   - *Logic Flaws*: Test for logical flaws in the application's workflow that could lead to unauthorized actions or data exposure.
+
+7. **API Testing**:
+   - *API Security*: Test for security vulnerabilities in APIs, including authentication, authorization, and data exposure.
+
+8. **Reporting**:
+   - *Report Generation*: Compile findings into a comprehensive report detailing discovered vulnerabilities, their severity, and recommendations for mitigation.
+
+These tests and methods are essential for identifying and mitigating security vulnerabilities in web applications, helping to secure them against potential attacks and breaches.
+
